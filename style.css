@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 40px;
+}
+.header h2 {
+    text-align: center;
+
+}
+
+.header p {
+    font-size: 14px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+section article {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service {
+    width: 257px;
+    height: 256px;
+    padding: 20px;
+}
+
+.service-img {
+
+    text-align: center;
+}
+
+.service h2 {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.service p {
+    font-size: 14px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.a-tag {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.a-tag span {
+    margin-left: 20px;
+}
+
+article .service:first-child {
+    background-color: #D3DDE0;
+}
+/* Latest New */
+
+.latestNew{
+    display: flex;
+    width: 1280px;
+
+}
+.latestNew article {
+    width: 100%;
+}
+.resoure {
+    width: 300px;
+
+}
+.resoure p{
+    font-size: 14px;
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+.button-tag{
+    margin: 55px 0px 40px 0px;
+    border: 1px solid #127BBE;
+}
+.button-tag button{
+    width: 177px;
+    height: 49px;
+    color: #127BBE;
+
+}
+ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+.nav{
+    display: flex;
+    width: 1280px;
+    justify-content: space-between;
+    
+}
+
